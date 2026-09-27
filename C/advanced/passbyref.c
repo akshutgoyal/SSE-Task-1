@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int pointref(int *ptr) {
     *ptr += 1;
     return *ptr;
